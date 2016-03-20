@@ -1,0 +1,175 @@
+body
+{
+	background-color: aqua;     
+	font-family:微软雅黑;
+	margin: 0px;        /*浏览器对边框有默认的边距，可通过设定来消除*/
+}
+header
+{
+	background-color:#333333;  /*html5新增属性*/
+}
+header .logo
+{
+	float:left;         /*浮动标签*/      
+	font-size:200%;
+	padding-left:10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	letter-spacing:5px;
+}
+.index
+{
+	float:right;
+	display:inline-block; /*元素内联，同时具有块个性*/
+	list-style:disc;      /*表示圆点标识*/
+}
+.index li                     
+{
+	float:left;
+	margin-left:1em;
+}
+.index a:link,.index a:visited /*标识未访问和已访问链接*/
+{
+	display:block;        /*元素展现*/
+	width:100px;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:30px;
+	font-size:75%;
+	text-decoration:none;   /*没有下划线*/
+}
+.index a:hover,.index a:active  /*表示鼠标移动和选定链接*/
+{
+	color:silver;
+}
+
+.article
+{
+	margin:30px;
+	padding:10px;	
+	background-color:#FFFFFF;
+	border-style:solid;
+	min-width:300px;
+	border-width:0 3px 3px 0;
+	border-color:gray;
+}
+.weight
+{
+	font-weight:bold;            /*字体加粗*/
+}
+.indent
+{
+	text-indent: 2em;          /*首行缩进两个字节*/
+}
+.bottom
+{
+	border:0;
+	padding:5px;
+	height:60px;
+	background-color:#000000;
+}
+.bottom footer
+{
+	text-align:center;         /*字体居中*/
+	color:#ffffff;
+	padding:10px;
+	font-size:75%
+}
+.title2                          /*设置副标题*/
+{
+	font-size:100%;
+	color:gray;	
+}
+.title3                         /*设置一个左边蓝框*/
+{
+	margin:3px;
+	padding-left:5px;
+	border-left: 4px solid blue;
+}
+.inform                       /*设置作者信息标识*/
+{
+	font-size:75%;
+	color:gray;
+}
+div.img                          /*自适应高度*/
+  {
+  margin:5px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:150px;
+  text-align:center;
+  }
+  div.img img                   /*自适应高度*/
+  {
+  margin:5px;
+  border:1px solid #bebebe;
+  height:auto;
+  width: 140px;
+  }
+  img
+  {
+	  max-width:100%;      /*图片自适应宽度*/
+  }
+  table                    
+  {
+	  width:100%;
+	  border:0;
+	  border-collapse:collapse; /*边框合并*/
+  }
+  th                            /*表头*/
+  {
+	  background-color:#000000;
+	  color:#ffffff;
+	  text-align:left;
+  }
+  td
+  {
+	  text-align:left;
+  }
+  tr.alt
+  {
+	  background-color:gray;
+  }
+  .content                  /*表格式*/    
+  {
+	  width:100%;
+	  text-align:center;
+  }
+  div.left                /*填表左部分*/
+  {
+	  float:left;
+	  width:40%;
+	  text-align:right;
+	  padding:5px;
+  }
+  div.right              /*填表右部分*/
+  {
+	  float:left;
+	  width:50%;
+	  text-align:left;
+	  display:inline-block;    /*内联 元素为块*/
+	  vertical-align:text-top; /*元素首端对齐*/
+	  padding:5px;
+  }
+  .hint
+  {
+	  color:gray;
+	  text-align:left;
+  }
+  form
+  {
+	  font-size:80%;
+  }
+  .blue                     /*提示条*/
+  {
+	  width:100%;
+	  height:40px;
+	  border-style:none;   /*无边框样式*/
+	  border-radius : 8px 8px 8px 8px; /*设计边框圆角*/
+	  background-color:blue;           /*背景色*/
+	  color:#ffffff;                   /*字体颜色*/
+	  font-weight:bold;                /*加粗*/
+	  font-size:120%;                    /*字体大小*/
+	  cursor:pointer;   /*用手指指示*/
+	  outline:none;    /*外轮廓为无*/
+  }
